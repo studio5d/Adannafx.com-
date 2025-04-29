@@ -4,7 +4,7 @@
     --secondary: #757575;
     --light: #F3F6F8;
     --dark: #c920cf;
-    --Ada: #06b6ac;
+    --Ada: #06b7ae;
 }
 
 .py-6 {
@@ -106,7 +106,7 @@
 
 .navbar .dropdown-toggle::after {
     border: none;
-    content: "\f107";
+    content: "";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
@@ -167,8 +167,7 @@
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+    
 }
 
 @media (max-width: 768px) {
